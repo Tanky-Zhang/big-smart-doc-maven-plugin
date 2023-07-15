@@ -18,6 +18,7 @@ import com.thoughtworks.qdox.JavaProjectBuilder;
 @Mojo(name = MojoConstants.GRPC_HTML_MOJO, requiresDependencyResolution = ResolutionScope.COMPILE)
 public class GRpcHtmlMojo extends BaseDocsGeneratorMojo {
 
+
     @Override
     public void executeMojo(ApiConfig apiConfig, JavaProjectBuilder javaProjectBuilder) {
         try {
